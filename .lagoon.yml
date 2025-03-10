@@ -33,10 +33,10 @@ tasks:
         service: cli
         shell: bash
 
-environments:
-  main:
-    cronjobs:
-      - name: drush hourly cron
-        schedule: "M * * * *"
-        command: drush cron
-        service: cli
+# environments:
+#   main:
+#     cronjobs:
+#       - name: drush hourly cron
+#         schedule: "M * * * *"
+#         command: drush cron
+#         service: cli
